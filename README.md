@@ -98,16 +98,6 @@ It is a basic website made with HTML, CSS, and JavaScript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
-
-<!-- > Add a link to your deployed project. -->
-
-<!-- - [ Website Live Demo Link]() -->
-
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
 ### Setup
 
 Clone this repository to your desired folder:
