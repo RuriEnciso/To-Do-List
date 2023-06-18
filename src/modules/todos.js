@@ -89,6 +89,13 @@ function deleteTodo(todoId) {
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
+// CLEAR ALL
+function clearCompletedTasks() {
+    tasks = tasks.filter((task) => !task.completed);
+    renderTasks(); 
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
 export {
   checkTodo, editTodo, deleteTodo, saveTodo,
 };
@@ -96,4 +103,4 @@ export {
   tasks, editTodoId,
 };
 
-export { renderTasks };
+export { renderTasks, clearCompletedTasks };
