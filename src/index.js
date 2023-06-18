@@ -1,10 +1,10 @@
 import './style.css';
 
-import { form, todosListEl } from './modules/global-vars.js';
+import { clearAllCompleted, form, todosListEl } from './modules/global-vars.js';
 import {
   saveTodo,
   checkTodo, editTodo, deleteTodo, tasks,
-  renderTasks,
+  renderTasks, clearCompletedTasks,
 } from './modules/todos.js';
 //  fisrt render
 renderTasks();
@@ -38,3 +38,5 @@ todosListEl.addEventListener('click', (event) => {
     deleteTodo(todoId);
   }
 });
+
+clearAllCompleted.addEventListener('click', clearCompletedTasks);
