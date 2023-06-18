@@ -1,28 +1,40 @@
 import './style.css';
 
-const tasks = [
-  { description: 'Task 1', completed: false, index: 1 },
-  { description: 'Task 2', completed: true, index: 2 },
-  { description: 'Task 3', completed: false, index: 3 },
-];
+import { form, todosListEl } from './modules/global-vars.js';
+import {
+  saveTodo,
+  checkTodo, editTodo, deleteTodo, tasks,
+  renderTasks,
+} from './modules/todos.js';
+//  fisrt render
+renderTasks();
+// FORM SUBMIT
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  saveTodo();
+  renderTasks();
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+});
 
-const todosListEl = document.getElementById('todos-list');
+// CLICK EVENT LISTENER FOR ALL TASKS
+todosListEl.addEventListener('click', (event) => {
+  const { target } = event;
+  const parentElement = target.parentNode;
 
-function rendertasks() {
-  // RENDER TODOS
-  tasks.forEach((todo, index) => {
-    todosListEl.innerHTML += `
-        <div class="todo" id="${index}">
-            <i 
-                class="bi ${todo.completed ? 'bi-check-circle-fill' : 'bi-circle'}"
-                style= "color: ${todo.color}"
-                data-action="check"
-            ></i>
-            <p class="${todo.completed ? 'checked' : ''}" data-action="check">${todo.description}</p>
-            <i class="bi bi-pencil-square" data-action="edit"></i>
-            <i class="bi bi-trash" data-action="delete"></i>
-        </div>
-        `;
-  });
-}
-rendertasks();
+  if (parentElement.className !== 'todo') return;
+
+  const todo = parentElement;
+  const todoId = Number(todo.id);
+
+  // TARGET ACTION
+  const { action } = target.dataset;
+  if (action === 'check') {
+    checkTodo(todoId);
+  }
+  if (action === 'edit') {
+    editTodo(todoId);
+  }
+  if (action === 'delete') {
+    deleteTodo(todoId);
+  }
+});
