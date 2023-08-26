@@ -45,6 +45,8 @@ After you're finished please remove all the comments and instructions!
 <!--   - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -97,6 +99,14 @@ It is a basic website made with HTML, CSS, and JavaScript.
 - **[Accesible Website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Install
+
+Install this project with git bash
+
+
+### Usage
+
+Run this project on the web or on your computer
 
 ### Setup
 
