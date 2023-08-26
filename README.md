@@ -69,25 +69,11 @@ It is a basic website made with HTML, CSS, and JavaScript.
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
-  <ul>
+  <summary>JavaScript, HTML, and CSS</summary>
+<!--   <ul>
     <li><a href="https://reactjs.org/">None</a></li>
-  </ul>
+  </ul> -->
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">None</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">None</a></li>
-  </ul>
-</details> 
 
 <!-- Features -->
 
@@ -99,14 +85,6 @@ It is a basic website made with HTML, CSS, and JavaScript.
 - **[Accesible Website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-### Install
-
-Install this project with git bash
-
-
-### Usage
-
-Run this project on the web or on your computer
 
 ### Setup
 
@@ -115,6 +93,15 @@ Clone this repository to your desired folder:
 Example commands:
 
 git clone git@github.com:RuriEnciso/Awesome-Books.git
+
+### Install
+
+Install this project with git bash
+
+
+### Usage
+
+Run this project on the web or on your computer
 
 ## 👥 Authors <a name="authors"></a>
 
