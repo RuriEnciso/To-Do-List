@@ -83,6 +83,7 @@ It is a basic website made with HTML, CSS, and JavaScript.
 - **[SPA]**
 - **[Responsive]**
 - **[Accesible Website]**
+- **[Dinamic Website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +138,7 @@ Feel free to check the [issues page](https://github.com/RuriEnciso/To-Do-List/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project can improve
+If you like this project, you can improve
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,11 +148,6 @@ If you like this project can improve
 
 Very grateful to my code reviewers and coding partners at microverse program.
 <!-- * <a href="https://www.behance.net/adagio07" target="_blank" rel="noopener">Cindy Shin in Behance</a> for this web layout. -->
-
-👤 **Syeda Masuma Fatima**
-- GitHub: [@MasumaJaffery](https://github.com/MasumaJaffery)
-- Twitter: [@MasumaJaffery](https://twitter.com/MasumaJaffery)
-- LinkedIn: [Masuma Jaffery](https://www.linkedin.com/in/masuma-jaffery-797a29256/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
