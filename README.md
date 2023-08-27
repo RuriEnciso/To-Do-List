@@ -84,6 +84,7 @@ It is a basic website made with HTML, CSS, and JavaScript.
 - **[Responsive]**
 - **[Accesible Website]**
 - **[Dinamic Website]**
+- **[Webpack]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
