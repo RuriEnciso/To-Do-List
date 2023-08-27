@@ -1,7 +1,6 @@
 /* eslint-disable */
 import showNotification from './show-notif.js';
 
-// import { tasks } from './todos.js';
 import { todosListEl, todoImput } from './global-vars.js';
 
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
@@ -9,7 +8,6 @@ let editTodoId = -1;
 
 function saveTodo() {
   const todoValue = todoImput.value;
-
   // CHECK IF THE TODO IS EMPTY
   const isEmpty = todoValue === '';
   // CHECK FOR DUPLICATES TODOS

@@ -45,6 +45,8 @@ After you're finished please remove all the comments and instructions!
 <!--   - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -67,25 +69,11 @@ It is a basic website made with HTML, CSS, and JavaScript.
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
-  <ul>
+  <summary>JavaScript, HTML, and CSS</summary>
+<!--   <ul>
     <li><a href="https://reactjs.org/">None</a></li>
-  </ul>
+  </ul> -->
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">None</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">None</a></li>
-  </ul>
-</details> 
 
 <!-- Features -->
 
@@ -95,6 +83,8 @@ It is a basic website made with HTML, CSS, and JavaScript.
 - **[SPA]**
 - **[Responsive]**
 - **[Accesible Website]**
+- **[Dinamic Website]**
+- **[Webpack]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,6 +95,15 @@ Clone this repository to your desired folder:
 Example commands:
 
 git clone git@github.com:RuriEnciso/Awesome-Books.git
+
+### Install
+
+Install this project with git bash
+
+
+### Usage
+
+Run this project on the web or on your computer
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -140,7 +139,7 @@ Feel free to check the [issues page](https://github.com/RuriEnciso/To-Do-List/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project can improve
+If you like this project, you can improve
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,11 +149,6 @@ If you like this project can improve
 
 Very grateful to my code reviewers and coding partners at microverse program.
 <!-- * <a href="https://www.behance.net/adagio07" target="_blank" rel="noopener">Cindy Shin in Behance</a> for this web layout. -->
-
-👤 **Syeda Masuma Fatima**
-- GitHub: [@MasumaJaffery](https://github.com/MasumaJaffery)
-- Twitter: [@MasumaJaffery](https://twitter.com/MasumaJaffery)
-- LinkedIn: [Masuma Jaffery](https://www.linkedin.com/in/masuma-jaffery-797a29256/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
